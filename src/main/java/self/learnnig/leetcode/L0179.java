@@ -40,8 +40,8 @@ import java.util.stream.Collectors;
  * 思路2:
  * 从结果的角度出发，把两个数字直接组合起来看看谁大来决定先后
  * 问题 [0,0] 全是0 会有问题
- *解决 如果全是0的话直接返回0；
- *
+ * 解决 如果全是0的话直接返回0；
+ * <p>
  * 思路3:
  *
  *
@@ -55,10 +55,10 @@ public class L0179 {
         Arrays.sort(numsWrapper, (a, b) -> {
             String s1 = String.valueOf(a);
             String s2 = String.valueOf(b);
-            return (s1+s2).compareTo(s2+s1) ;
+            return (s1 + s2).compareTo(s2 + s1);
         });
         List<String> stringList = new ArrayList<>();
-        if(stringList.getLast().equals("0")){
+        if (stringList.get(stringList.size() - 1).equals("0")) {
             return "0";
         }
         for (int i = numsWrapper.length - 1; i >= 0; i--) {
