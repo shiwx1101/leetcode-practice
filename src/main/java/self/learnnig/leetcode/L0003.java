@@ -49,7 +49,6 @@ public class L0003 {
                 rt++;
             }
             maxSize = Math.max(rt - i + 1, maxSize);
-            set.remove(s.charAt(i));
         }
         return maxSize;
     }
