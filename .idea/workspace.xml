@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0e1594-622c-4449-8f70-93824ded3637" name="Changes" comment="反转链表">
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0092.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3f0e1594-622c-4449-8f70-93824ded3637" name="Changes" comment="反转链表II">
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0004.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775120162538</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="反转链表II">
+      <option name="closed" value="true" />
+      <created>1776522719780</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1776522719780</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +378,8 @@
     <MESSAGE value="最长重复子数组" />
     <MESSAGE value=" 删除排序链表中的重复元素" />
     <MESSAGE value="反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
+    <MESSAGE value="反转链表II" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转链表II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,7 +441,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0004.java</url>
-          <line>37</line>
+          <line>39</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
