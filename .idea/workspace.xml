@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0e1594-622c-4449-8f70-93824ded3637" name="Changes" comment="" />
+    <list default="true" id="3f0e1594-622c-4449-8f70-93824ded3637" name="Changes" comment="反转链表">
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0092.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3BCbEMkUqxWozzmaMJN5AV97Bpz" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -34,17 +38,90 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.L0003.executor": "Run",
+    "Application.L0004.executor": "Debug",
+    "Application.L0015.executor": "Debug",
+    "Application.L0033.executor": "Run",
+    "Application.L0034.executor": "Run",
     "Application.L0054.executor": "Run",
+    "Application.L0056.executor": "Run",
+    "Application.L0069.executor": "Run",
+    "Application.L0076.executor": "Debug",
+    "Application.L0082.executor": "Debug",
+    "Application.L0088.executor": "Run",
+    "Application.L0092.executor": "Debug",
+    "Application.L0153.executor": "Debug",
+    "Application.L0162.executor": "Debug",
+    "Application.L0169.executor": "Run",
+    "Application.L0179.executor": "Run",
+    "Application.L0215.executor": "Run",
+    "Application.L0283.executor": "Run",
+    "Application.L0415.executor": "Debug",
+    "Application.L0704.executor": "Debug",
+    "Application.L0912.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="L0054" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="self.learnnig.leetcode.L0054" />
+  <component name="RunManager" selected="Application.L0092">
+    <configuration name="L0003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.learnnig.leetcode.L0003" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.learnnig.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L0076" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.learnnig.leetcode.L0076" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.learnnig.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L0082" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.learnnig.leetcode.L0082" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.learnnig.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L0092" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.learnnig.leetcode.L0092" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.learnnig.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L0415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.learnnig.leetcode.L0415" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
@@ -58,7 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L0054" />
+        <item itemvalue="Application.L0092" />
+        <item itemvalue="Application.L0082" />
+        <item itemvalue="Application.L0076" />
+        <item itemvalue="Application.L0003" />
+        <item itemvalue="Application.L0415" />
       </list>
     </recent_temporary>
   </component>
@@ -70,6 +151,390 @@
       <option name="presentableId" value="Default" />
       <updated>1773995888491</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1774236840265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774236840265</updated>
+    </task>
+    <task id="LOCAL-00002" summary="排序">
+      <option name="closed" value="true" />
+      <created>1774316344709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774316344709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="findKthLargest">
+      <option name="closed" value="true" />
+      <created>1774320776702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774320776702</updated>
+    </task>
+    <task id="LOCAL-00004" summary="merge two sorted array">
+      <option name="closed" value="true" />
+      <created>1774330548714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774330548714</updated>
+    </task>
+    <task id="LOCAL-00005" summary="多数元素 只出现一次的数字  合并区间">
+      <option name="closed" value="true" />
+      <created>1774403614284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774403614284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="最大数">
+      <option name="closed" value="true" />
+      <created>1774410119705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774410119705</updated>
+    </task>
+    <task id="LOCAL-00007" summary="二分">
+      <option name="closed" value="true" />
+      <created>1774416545189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774416545189</updated>
+    </task>
+    <task id="LOCAL-00008" summary="数组中的开始位置和结束位置。">
+      <option name="closed" value="true" />
+      <created>1774421665118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774421665118</updated>
+    </task>
+    <task id="LOCAL-00009" summary="寻找旋转排序数组中的最小值">
+      <option name="closed" value="true" />
+      <created>1774492506245</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774492506245</updated>
+    </task>
+    <task id="LOCAL-00010" summary="搜索旋转排序数组">
+      <option name="closed" value="true" />
+      <created>1774507402429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774507402429</updated>
+    </task>
+    <task id="LOCAL-00011" summary="峰值元素是">
+      <option name="closed" value="true" />
+      <created>1774510053126</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774510053126</updated>
+    </task>
+    <task id="LOCAL-00012" summary="搜索二维矩阵 II">
+      <option name="closed" value="true" />
+      <created>1774836405713</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1774836405713</updated>
+    </task>
+    <task id="LOCAL-00013" summary="x 的平方根">
+      <option name="closed" value="true" />
+      <created>1774841690169</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1774841690169</updated>
+    </task>
+    <task id="LOCAL-00014" summary="三数之和">
+      <option name="closed" value="true" />
+      <created>1774850407861</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1774850407861</updated>
+    </task>
+    <task id="LOCAL-00015" summary="0283. 移动零">
+      <option name="closed" value="true" />
+      <created>1774855728306</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774855728306</updated>
+    </task>
+    <task id="LOCAL-00016" summary="字符串相加">
+      <option name="closed" value="true" />
+      <created>1774860531931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774860531931</updated>
+    </task>
+    <task id="LOCAL-00017" summary="滑动窗口中的最大值 。">
+      <option name="closed" value="true" />
+      <created>1774928676189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1774928676189</updated>
+    </task>
+    <task id="LOCAL-00018" summary="因为无重复字符的最长子串是">
+      <option name="closed" value="true" />
+      <created>1774935580862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1774935580862</updated>
+    </task>
+    <task id="LOCAL-00019" summary="最小覆盖子串">
+      <option name="closed" value="true" />
+      <created>1775015253323</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1775015253323</updated>
+    </task>
+    <task id="LOCAL-00020" summary="最长重复子数组">
+      <option name="closed" value="true" />
+      <created>1775024383238</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1775024383238</updated>
+    </task>
+    <task id="LOCAL-00021" summary=" 删除排序链表中的重复元素">
+      <option name="closed" value="true" />
+      <created>1775025394877</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1775025394877</updated>
+    </task>
+    <task id="LOCAL-00022" summary=" 删除排序链表中的重复元素">
+      <option name="closed" value="true" />
+      <created>1775114401105</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1775114401105</updated>
+    </task>
+    <task id="LOCAL-00023" summary="反转链表">
+      <option name="closed" value="true" />
+      <created>1775120162538</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1775120162538</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="排序" />
+    <MESSAGE value="findKthLargest" />
+    <MESSAGE value="merge two sorted array" />
+    <MESSAGE value="多数元素 只出现一次的数字  合并区间" />
+    <MESSAGE value="最大数" />
+    <MESSAGE value="二分" />
+    <MESSAGE value="数组中的开始位置和结束位置。" />
+    <MESSAGE value="寻找旋转排序数组中的最小值" />
+    <MESSAGE value="搜索旋转排序数组" />
+    <MESSAGE value="峰值元素是" />
+    <MESSAGE value="搜索二维矩阵 II" />
+    <MESSAGE value="x 的平方根" />
+    <MESSAGE value="三数之和" />
+    <MESSAGE value="0283. 移动零" />
+    <MESSAGE value="字符串相加" />
+    <MESSAGE value="滑动窗口中的最大值 。" />
+    <MESSAGE value="因为无重复字符的最长子串是" />
+    <MESSAGE value="最小覆盖子串" />
+    <MESSAGE value="最长重复子数组" />
+    <MESSAGE value=" 删除排序链表中的重复元素" />
+    <MESSAGE value="反转链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0912.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0912.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0169.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0056.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0056.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0034.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0034.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0153.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0033.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0033.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0162.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0004.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0069.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0069.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0015.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0015.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0415.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0415.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0003.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0003.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0076.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0082.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0092.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0092.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0092.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0088.java</url>
+          <line>57</line>
+          <properties class="self.learnnig.leetcode.L0088" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0033.java</url>
+          <line>61</line>
+          <properties class="self.learnnig.leetcode.L0033" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/self/learnnig/leetcode/L0415.java</url>
+          <line>57</line>
+          <properties class="self.learnnig.leetcode.L0415" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="self.learnnig.leetcode.L0082$ListNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
